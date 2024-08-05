@@ -1,0 +1,21 @@
+.bg-gradient-black-transparent {
+  background: transparent;
+}
+
+select,
+.download {
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(2px);
+  color: white;
+  border: 1px solid white;
+  padding: 2px 3px;
+  border-radius: 5px;
+}
+
+option {
+  color: black;
+}
+
+.netfilx_logo {
+  width: 100px;
+}

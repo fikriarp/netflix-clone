@@ -1,0 +1,37 @@
+.bg {
+  background: url("https://assets.nflxext.com/ffe/siteui/vlv3/826348c2-cdcb-42a0-bc11-a788478ba5a2/21754c6d-bb14-44ac-b185-5faac16024e8/ID-id-20240729-POP_SIGNUP_TWO_WEEKS-perspective_WEB_1f3dbef5-cc68-401c-8344-34c880616468_small.jpg");
+  height: 100vh;
+  width: 100%;
+filter: brightness(30%);
+z-index: -999;
+}
+
+.homeTitle {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.homeTitle p {
+    font-size: 20px;
+}
+
+.bg-blur{
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(2px);
+    width: 70vw;
+    height: 8vh;
+}
+
+.bg-blur::placeholder{
+    color: white;
+}
+
+.bg-blur:focus{
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(2px);
+    color: white;
+}

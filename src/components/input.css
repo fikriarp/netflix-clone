@@ -1,0 +1,34 @@
+/* Label transition */
+.label-animate {
+  transition: all 0.2s ease-in;
+  cursor: text;
+}
+
+.label-focused {
+  top: -3px;
+  left: 13px;
+  font-size: 0.75rem; /* smaller font size */
+  color: #d3d3d3; /* Change color if needed */
+}
+
+.label-blur {
+  top: 50%;
+  left: 13px;
+  transform: translateY(-50%);
+  font-size: 1rem; /* original font size */
+  color: #d3d3d3; /* Change color if needed */
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media (min-width: 992px) {
+  .form-login {
+    display: flex;
+    align-items: center;
+  }
+}
