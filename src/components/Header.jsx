@@ -1,10 +1,14 @@
+import { useEffect } from "react";
 import "./header.css";
 
 function Header() {
   return (
     <header className="topNav bg-gradient-black-transparent position-absolute w-100 z-1">
       <nav className="navbar navbar-dark">
-        <div className="container px-4">
+        <div
+          className="d-flex justify-content-around
+align-items-center w-100"
+        >
           <a className="nav__logo" href="#">
             <img
               className="netfilx_logo"
